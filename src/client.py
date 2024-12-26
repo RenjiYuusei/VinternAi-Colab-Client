@@ -155,7 +155,7 @@ def process_image():
 
 if __name__ == '__main__':
     # Khởi tạo ngrok token
-    ngrok.set_auth_token("Token")
+    ngrok.set_auth_token("Token") # Thay bằng token Ngrok của bạn
     
     # Khởi tạo ngrok tunnel
     ngrok_tunnel = ngrok.connect(5000)
